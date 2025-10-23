@@ -75,7 +75,7 @@ export const useWeather = () => {
 
   // load default weather on mount
   useEffect(() => {
-    fetchWeatherByCity("New York");
+    fetchWeatherByCity("Ho Chi Minh");
   }, []);
 
   return {
